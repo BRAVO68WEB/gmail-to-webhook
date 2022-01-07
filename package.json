@@ -1,0 +1,35 @@
+{
+  "name": "gmailwebhook",
+  "version": "1.0.0",
+  "description": "Gmail to Custom Webhook",
+  "main": "email.js",
+  "author": "bravo68web",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bravo68web/gmail-to-webhook/issues"
+  },
+  "homepage": "https://github.com/bravo68web/gmail-to-webhook#readme",
+  "scripts": {
+    "dev": "nodemon email.js",
+    "listen": "node email.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravo68web/gmail-to-webhook.git"
+  },
+  "keywords": [
+    "gmail",
+    "webhook",
+    "live",
+    "gapi",
+    "post"
+  ],
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fs": "^0.0.1-security",
+    "googleapis": "^92.0.0",
+    "js-base64": "^3.7.2",
+    "jsdom": "^19.0.0",
+    "readline": "^1.3.0"
+  }
+}
